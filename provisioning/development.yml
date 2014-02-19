@@ -4,6 +4,7 @@
   user: "{{user}}"
   roles:
     - role: common
+    - role: apt-node
     - role: rbenv
     - role: ruby-build
     - role: rails

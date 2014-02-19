@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+- name: 'Add apt repository for node.js'
+  apt_repository: repo='ppa:chris-lea/node.js'
+  sudo: yes
+  tags: node
+
+- name: 'Install node.js'
+  apt: 'pkg=nodejs state=present'
+  sudo: yes
+  tags: node

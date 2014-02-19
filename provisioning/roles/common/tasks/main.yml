@@ -15,3 +15,8 @@
     - libssl-dev
     - libyaml-dev
     - zlib1g-dev
+    - libsqlite3-dev
+    - sqlite3
+    - libxml2-dev
+    - libxslt1-dev
+    - python-pycurl
