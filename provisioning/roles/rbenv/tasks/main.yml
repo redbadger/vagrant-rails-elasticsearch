@@ -19,7 +19,7 @@
   tags: rbenv
 
 - name: Checks if target ruby is installed
-  shell: cd; bash -lc "rbenv versions | grep 2.1.0 | tr '*' ' ' | sed -e 's/\s\+//' | cut -f1 -d' '"
+  shell: cd; bash -lc "rbenv versions | grep {{ ruby.version }} | tr '*' ' ' | sed -e 's/\s\+//' | cut -f1 -d' '"
   register: ruby_is_installed
   tags: rbenv
 
