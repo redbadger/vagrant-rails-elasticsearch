@@ -8,4 +8,5 @@
     - role: rbenv
     - role: ruby-build
     - role: rails
+    - role: elasticsearch
     - role: dev
