@@ -22,5 +22,6 @@
 - name: Sets global ruby version
   shell: cd; bash -lc "rbenv global 2.1.0"
 
-- name: Tell rubygems not to install the documentation for each package locally
-  shell: 'echo "gem: --no-ri --no-rdoc" > ~/.gemrc'
+- name: Copy gemrc file tell rubygems not to install the documentation for each package locally
+  copy: src=gemrc
+        dest=~/.gemrc
