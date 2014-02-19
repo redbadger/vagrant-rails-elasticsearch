@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+- name: Install read line
+  apt: pkg=libreadline-dev
+  sudo: yes

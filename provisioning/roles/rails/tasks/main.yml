@@ -1,0 +1,4 @@
+- name: Install rails
+  shell: cd; bash -lc "gem install rails"
+- name: rbenv rehash
+  shell: cd; bash -lc "rbenv rehash"

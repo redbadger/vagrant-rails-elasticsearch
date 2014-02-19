@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+- name: Install libssl
+  apt: pkg=libssl-dev
+  sudo: yes

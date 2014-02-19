@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+- name: Install zlib
+  apt: pkg=zlib1g-dev
+  sudo: yes

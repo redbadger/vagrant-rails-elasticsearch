@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+- name: Install yaml
+  apt: pkg=libyaml-dev
+  sudo: yes

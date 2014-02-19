@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+- name: Install build essentials
+  apt: pkg=build-essential
+  sudo: yes
