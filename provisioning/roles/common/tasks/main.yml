@@ -3,3 +3,15 @@
 - name: Update apt
   apt: update_cache=yes
   sudo: yes
+
+- name: Install dependencies
+  apt: pkg=$item
+  sudo: yes
+  with_items:
+    - build-essential
+    - curl
+    - git
+    - libreadline-dev
+    - libssl-dev
+    - libyaml-dev
+    - zlib1g-dev

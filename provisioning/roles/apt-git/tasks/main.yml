@@ -1,5 +1,0 @@
-%YAML 1.2
----
-- name: Install git
-  apt: pkg=git
-  sudo: yes

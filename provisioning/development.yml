@@ -4,12 +4,6 @@
   user: "{{user}}"
   roles:
     - role: common
-    - role: apt-git
-    - role: apt-zlib
-    - role: apt-build-essential
-    - role: apt-ssl
-    - role: apt-readline
-    - role: apt-yaml
     - role: rbenv
     - role: ruby-build
     - role: rails
